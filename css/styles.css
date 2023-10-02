@@ -124,11 +124,11 @@ img {
     color: #404BBF;
 }
 
-.menu-link-studio {
+.header-menu-activ {
     color: #404bbf;
 }
 
-.menu-link-studio::after {
+.header-menu-activ::after {
     content: "";
     display: block;
     flex-direction: column;
@@ -412,6 +412,10 @@ img {
     max-width: 264px;
 }
 
+.footer-networks {
+    margin-right: 80px;
+}
+
 .text-social-networks {
     font-weight: 500;
     font-size: 16px;
@@ -449,4 +453,58 @@ img {
 
 .social-networks-icon {
     fill: #f4f4fd;
+}
+
+.newsletter-form {
+    display: flex;
+}
+
+.input {
+    width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    flex-shrink: 0;
+    background-color: #2E2F42;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-right: 24px;
+}
+
+.input::placeholder {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.48px;
+}
+
+.newsletter-button {
+    background-color: #4D5AE5;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-weight: 500;
+    line-height: 1.5px;
+    letter-spacing: 0.64px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.newsletter-button:hover,
+.newsletter-button:focus {
+    background-color: #404BBF;
+}
+
+.newsletter-logo {
+    fill: white;
 }
