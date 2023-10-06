@@ -687,17 +687,6 @@ img {
     margin-bottom: 24px;
 }
 
-.privacy-policy{
-    color: #8e8f99;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    font-weight: 400;
-    letter-spacing: 0.48px;
-    display: flex;
-    align-items: center;
-}
-
 input[type="checkbox"] + label > span {
     display: inline-flex;
     justify-content: center;
@@ -717,6 +706,15 @@ input[type="checkbox"]:checked + label > span {
     border: none;
     background-color: #404BBF;
     fill: #F4F4FD;
+}
+
+.privacy-policy{
+    color: #8e8f99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    letter-spacing: 0.48px;
 }
 
 .privacy-policy-link {
